@@ -14,6 +14,8 @@ class TestMain(unittest.TestCase):
         
     def tearDown(self):
         del self.header
+        del self.keywords
+        del self.url
     
     def test_find_in_text_true(self):
         text = "Это текст о дизайне и фото"
